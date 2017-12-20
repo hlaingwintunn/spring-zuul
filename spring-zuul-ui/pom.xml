@@ -9,9 +9,9 @@
 	<name>spring-zuul-ui</name>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.9.RELEASE</version>
+		<groupId>com.hlaing</groupId>
+		<artifactId>spring-zuul</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
@@ -74,15 +74,15 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<build>
-	    <finalName>spring-zuul-ui</finalName>
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
-	</build>
+    <build>
+        <finalName>spring-zuul-ui</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
 
 
 </project>
